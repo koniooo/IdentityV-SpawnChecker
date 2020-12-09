@@ -14,7 +14,7 @@
 
 @media (min-aspect-ratio: 691/1870) and (max-aspect-ratio: 691/935) {
 	
-	img {height: 12.5vh;}
+	img {height: 12.5vh; height: calc(var(--vh, 1vh) * 12.5);}
 	
 }
 
@@ -32,6 +32,6 @@
 
 @media (min-aspect-ratio: 1382/935) {
 	
-	img {height: 25vh}
+	img {height: 25vh; height: calc(var(--vh, 1vh) * 25);}
 	
 }
