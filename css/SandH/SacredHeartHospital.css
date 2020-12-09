@@ -16,7 +16,7 @@ svg {width: 9.63%;}
 
 @media (max-aspect-ratio: 935/1011) {
 	
-	#pad {height: calc(50vh - 10110vw/187);}
+	#pad {height: calc(50vh - 10110vw/187); height: calc(calc(var(--vh, 1vh) * 50) - 10110vw/187);}
 	
 	#container {width: 100%;}
 	
@@ -30,6 +30,6 @@ svg {width: 9.63%;}
 	
 	#container {height: 100%;}
 	
-	img {height: 100vh;}
+	img {height: 100vh; height: calc(var(--vh, 1vh) * 100);}
 	
 }
