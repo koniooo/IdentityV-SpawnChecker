@@ -23,13 +23,18 @@ h1 {
 	svg {
 		position: absolute;
 		bottom: 1.25vh;
+		bottom: calc(var(--vh, 1vh) * 1.25);
 		right: 5%;
 		height: 7.5vh;
+		height: calc(var(--vh, 1vh) * 7.5);
 	}
 	
 	body {font-size: 7vmin;}
 	
-	a {height: 10vh; width: 100%;}
+	a {
+		height: 10vh;
+		height: calc(var(--vh, 1vh) * 10);
+		width: 100%;}
 
 	br {display: none;}
 
@@ -60,14 +65,18 @@ h1 {
 	svg {
 		position: absolute;
 		bottom: 3vh;
+		bottom: calc(var(--vh, 1vh) * 3);
 		right: 3vh;
+		right: calc(var(--vh, 1vh) * 3);
 		height: 12.5vh;
+		height: calc(var(--vh, 1vh) * 12.5);
 	}
 	
 	body {font-size: 3vw;}
 	
 	div {
 		height: 100vh;
+		height: calc(var(--vh, 1vh) * 100);
 		width: 	100%;
 		display: flex;
 		flex-wrap: wrap;
@@ -77,15 +86,20 @@ h1 {
 	
 	a {
 		height: 35vh; 
+		height: calc(var(--vh, 1vh) * 35);
 		width: 18%;
 		border-radius: 7vh;
+		border-radius: calc(var(--vh, 1vh) * 7);
 		transition: 0.3s;
 		filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
 	}
 	
 	a:hover {filter: drop-shadow(18px 18px 18px rgba(0, 0, 0, 0.8));}
 	
-	img {border-radius: 7vh;}
+	img {
+		border-radius: 7vh;
+		border-radius: calc(var(--vh, 1vh) * 7);
+	}
 	
 	#ws {font-size: 2.4vw;}
 	
