@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#srv1 {top: 20%; left: 19.6%; transform: rotate(45deg);}
+
+#srv2 {top: 32%; left: 23.8%; transform: rotate(-135deg);}
+
+#srv3 {top: 39%; left: 17.2%; transform: rotate(45deg);}
+
+#srv4 {top: 64.5%; left: 17.2%; transform: rotate(45deg);}
+
+#srv5 {top: 51.5%; left: 43%; transform: rotate(45deg);}
+
+#srv6 {top: 45.5%; left: 36%; transform: rotate(165deg);}
+
+#srv7 {top: 51.5%; left: 30%; transform: rotate(45deg);}
+
+#srv8 {top: 62.5%; left: 47.5%; transform: rotate(45deg); width: 15.05%}
+
+#srv9 {top: 61%; left: 44%; transform: rotate(-135deg);}
+
+#srv10 {top: 73.4%; left: 70.3%; transform: rotate(45deg);}
+
+#srv11 {top: 57%; left: 64%; transform: rotate(45deg);}
+
+#srv12 {top: 53%; left: 71%; transform: rotate(-45deg);}
+
+#srv13 {top: 23%; left: 42.8%; transform: rotate(45deg);}
+
+#srv14 {top: 27.5%; left: 53%; transform: rotate(-75deg);}
+
+#srv15 {top: 17.4%; left: 51.7%; transform: rotate(45deg);}
+
+#srv16 {top: 36.5%; left: 46.7%; transform: rotate(-15deg);}
+
+#srv17 {top: 35.5%; left: 61.5%;}
+
+#srv18 {top: 49.5%; left: 78.5%; transform: rotate(45deg);}
+
+#srv19 {top: 40%; left: 76%; transform: rotate(45deg);}
+
+text {
+	transform: rotate(-45deg);
+	font-weight: 900;
+	font-size: 50px;
+	fill: #ffffff;
+	font-family: sans-serif;
+}

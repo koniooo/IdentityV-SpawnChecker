@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+svg {width: 9.03%;}
+
+#hnt1 {top: 27%; left: 71.7%;}
+
+#hnt2 {top: 55.2%; left: 81.2%;}
+
+#hnt3 {top: 69.3%; left: 62%;}
+
+#hnt4 {top: 66.8%; left: 25.9%;}
+
+#hnt5 {top: 35.9%; left: 35.5%;}
+
+#hnt6 {top: 20.7%; left: 16.9%;}
+
+#hnt7 {top: 56.3%; left: 14.3%;}
+
+@media (max-aspect-ratio: 997/935) {
+	
+	#container {width: 100%;}
+	
+	#pad {height: calc(50vh - 46750vw/997);}
+	
+	img {width: 100%;}
+	
+}
+
+@media (min-aspect-ratio: 997/935) {
+	
+	#container {height: 100%;}
+	
+	#pad {display: none;}
+	
+	img {height: 100vh;}
+	
+}

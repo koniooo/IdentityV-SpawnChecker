@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+@media (max-aspect-ratio: 13/30) {
+	
+	img {width: 50%;}
+	
+	#container {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	}
+	
+}
+
+@media (min-aspect-ratio: 13/30) and (max-aspect-ratio: 13/20) {
+	
+	img {height: 25vh;}
+	
+}
+
+@media (min-aspect-ratio: 13/20) and (max-aspect-ratio: 13/15) {
+	
+	img {width: 33.333%;}
+	
+	#container {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	}
+	
+}
+
+@media (min-aspect-ratio: 13/15) {
+	
+	img {height: 33.333vh}
+	
+}

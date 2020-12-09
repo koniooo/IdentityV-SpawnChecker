@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+svg {width: 9.63%;}
+
+#hnt1 {top: 70.5%; left: 62.2%;}
+
+#hnt2 {top: 54.5%; left: 23.7%;}
+
+#hnt3 {top: 11.4%; left: 8.8%;}
+
+#hnt4 {top: 16%; left: 41.5%;}
+
+#hnt5 {top: 29.2%; left: 53.8%;}
+
+#hnt6 {top: 54.8%; left: 72.8%;}
+
+@media (max-aspect-ratio: 935/1106) {
+	
+	#pad {height: calc(50vh - 11060vw/187);}
+	
+	#container {width: 100%;}
+	
+	img {width: 100%;}
+	
+}
+
+@media (min-aspect-ratio: 935/1106) {
+	
+	#pad {display: none;}
+	
+	#container {height: 100%;}
+	
+	img {height: 100vh;}
+	
+}

@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+img {
+	display: block;
+}
+
+#survivor, #hunter, #list {
+	position: relative;
+	color: #292b2f;
+	font-weight: 900;
+}
+
+#survivor {
+	background-color: #00ffff;
+	
+}
+
+#hunter {
+	background-color: #ed1e79;
+}
+
+#list {
+	background-color: #ffff00;
+}
+
+#footer {
+	color: #ffffff;
+	height: 10vh;
+	line-height: 10vh;
+	font-size: 2.5vh;
+}
+	
+#footer a {
+	display: inline-block;
+}
+	
+span {
+	display: inline-block;
+}
+
+#twitter {
+	height: 4vh;
+	transform: translateY(30%);
+}
+
+@media (max-aspect-ratio: 1/1) {
+	
+	#identityv {
+		height: 6.5vh;
+		margin: 2.5vh 0 0 5%;
+	}
+	
+	#logo2 {
+		height: 25vh;
+		max-width: 90%;
+		margin: 0 auto 1vh auto;
+	}
+	
+	#logo1 {
+		display: none;
+	}
+	
+	#survivor, #hunter, #list {
+		font-size: 12vw;
+		height: 16.8vh;
+		width: 90%;
+		line-height: 16.8vh;
+		border-radius: 3vh;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#survivor {
+		margin-bottom: 2.3vh;
+	}
+	
+	#hunter {
+		margin-bottom: 2.3vh;
+	}
+	
+	svg {
+		position: absolute;
+		width: 10vh;
+		height: 10vh;
+		right: 5%;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	
+	h1 {
+		transform: translateX(-10%);
+	}
+
+}
+
+@media (min-aspect-ratio: 1/1) {
+
+	#identityv {
+		height: 10vh;
+		padding: 2.5vh 0 0 2.5%;
+	}
+	
+	#logo2 {
+		display: none;
+	}
+	
+	#logo1 {
+		height: 25vh;
+		max-width: 95%;
+		margin: 0 auto 2.5vh auto;
+	}
+	
+	#main {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	#survivor, #hunter, #list {
+		font-size: 5vw;
+		height: 50vh;
+		line-height: 50vh;
+		width: 30%;
+		border-radius: 10vh;
+	}
+	
+	svg {
+		position: absolute;
+		width: 12vh;
+		height: 12vh;
+		right: 10%;
+		bottom: 5%;
+	}
+	
+}

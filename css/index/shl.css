@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+a {
+	position: relative;
+	color: rgba(224,224,224);
+}
+
+img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media (max-aspect-ratio: 1/1) {
+
+	svg {
+		position: absolute;
+		bottom: 1.25vh;
+		right: 5%;
+		height: 7.5vh;
+	}
+	
+	body {font-size: 7vmin;}
+	
+	a {height: 10vh; width: 100%;}
+
+	br {display: none;}
+
+	#factory {object-position: 0 52%}
+
+	#church {object-position: 0 90%}
+
+	#hospital {object-position: 0 52%}
+
+	#village {object-position: 0 85%}
+
+	#park {object-position: 0 52%}
+
+	#memory {object-position: 0 100%}
+
+	#town {object-position: 0 88%}
+
+	#asylum {object-position: 0 70%}
+
+	#cave {object-position: 0 95%}
+
+	#top {object-position: 0 60%}
+
+}
+
+@media (min-aspect-ratio: 1/1) {
+	
+	svg {
+		position: absolute;
+		bottom: 3vh;
+		right: 3vh;
+		height: 12.5vh;
+	}
+	
+	body {font-size: 3vw;}
+	
+	div {
+		height: 100vh;
+		width: 	100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-content: space-around;
+	}
+	
+	a {
+		height: 35vh; 
+		width: 18%;
+		border-radius: 7vh;
+		transition: 0.3s;
+		filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+	}
+	
+	a:hover {filter: drop-shadow(18px 18px 18px rgba(0, 0, 0, 0.8));}
+	
+	img {border-radius: 7vh;}
+	
+	#ws {font-size: 2.4vw;}
+	
+	#factory {object-position: 57% 0}
+
+	#church {object-position: 49% 0}
+
+	#hospital {object-position: 40% 0}
+
+	#village {object-position: 40% 0}
+
+	#park {object-position: 28% 0}
+
+	#memory {object-position: 50% 0}
+
+	#town {object-position: 22% 0}
+
+	#asylum {object-position: 52% 0}
+
+	#cave {object-position: 15% 0}
+
+	#top {object-position: 47% 0}
+
+}
