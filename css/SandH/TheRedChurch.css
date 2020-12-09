@@ -20,7 +20,7 @@ svg {width: 9.63%;}
 	
 	#container {width: 100%;}
 	
-	#pad {height: calc(50vh - 50vw);}
+	#pad {height: calc(50vh - 50vw); height: calc(calc(var(--vh, 1vh) * 50) - 50vw);}
 	
 	img {width: 100%;}
 	
@@ -32,6 +32,6 @@ svg {width: 9.63%;}
 	
 	#pad {display: none;}
 	
-	img {height: 100vh;}
+	img {height: 100vh; height: calc(var(--vh, 1vh) * 100);}
 	
 }
