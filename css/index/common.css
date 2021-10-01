@@ -5,6 +5,11 @@ body {
 	font-weight: 700;
 	font-size: 15vmin;
 	background-color: #292b2f;
+
+	/* ここから中華街特別仕様 */
+	background-image: url("../../png/ChinaTown/index_dark.png");
+	background-size: cover;
+	background-position: 45% 0;
 }
 
 a {
