@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-svg {transform: rotate(45deg); opacity: 0.5;}
+.srv {transform: rotate(45deg);}
 
 #srv1 {top: 10.5%; left: 22.6%;}
 
@@ -30,7 +30,7 @@ svg {transform: rotate(45deg); opacity: 0.5;}
 
 #srv14 {top: 45.6%; left: 70.6%;}
 
-#srv15 {top: 55.2%; left: 90.5%;}
+#srv15 {top: 55.2%; left: 89.5%;}
 
 #srv16 {top: 73.6%; left: 9.8%;}
 
