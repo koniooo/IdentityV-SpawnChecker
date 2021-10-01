@@ -33,7 +33,7 @@ h1 {
 	
 	a {
 		height: 10vh;
-		height: calc(var(--vh, 1vh) * 10);
+		height: calc(var(--vh, 1vh) * 9.09);
 		width: 100%;}
 
 	br {display: none;}
@@ -56,6 +56,8 @@ h1 {
 
 	#cave {object-position: 0 95%}
 
+	#china {object-position: 0 100%;}
+
 	#top {object-position: 0 60%}
 
 }
@@ -72,12 +74,17 @@ h1 {
 		height: calc(var(--vh, 1vh) * 12.5);
 	}
 	
-	body {font-size: 3vw;}
+	body {font-size: 2.5vw;}
 	
-	div {
+	#container {
 		height: 100vh;
 		height: calc(var(--vh, 1vh) * 100);
 		width: 	100%;
+	}
+
+	#upper, #lower {
+		height: 50vh;
+		height: calc(var(--vh, 1vh) * 50);
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
@@ -87,7 +94,6 @@ h1 {
 	a {
 		height: 35vh; 
 		height: calc(var(--vh, 1vh) * 35);
-		width: 18%;
 		border-radius: 7vh;
 		border-radius: calc(var(--vh, 1vh) * 7);
 		transition: 0.3s;
@@ -95,13 +101,21 @@ h1 {
 	}
 	
 	a:hover {filter: drop-shadow(18px 18px 18px rgba(0, 0, 0, 0.8));}
+
+	#upper a  {
+		width: 18%;
+	}
+
+	#lower a {
+		width: 15%;
+	}
 	
 	img {
 		border-radius: 7vh;
 		border-radius: calc(var(--vh, 1vh) * 7);
 	}
 	
-	#ws {font-size: 2.4vw;}
+	#ws {font-size: 2vw;}
 	
 	#factory {object-position: 57% 0}
 
@@ -120,6 +134,8 @@ h1 {
 	#asylum {object-position: 52% 0}
 
 	#cave {object-position: 15% 0}
+
+	#china {object-position: 45% 0;}
 
 	#top {object-position: 47% 0}
 
