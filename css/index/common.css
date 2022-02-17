@@ -1,17 +1,17 @@
 @charset "utf-8";
 
 body {
-	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-	font-weight: 700;
-	font-size: 15vmin;
-	background-color: #292b2f;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 15vmin;
+  background-color: #292b2f;
 
-	/* ここから中華街特別仕様
+  /* ここから中華街特別仕様
 	background-image: url("../../png/ChinaTown/index_dark.png");
 	background-size: cover;
 	background-position: 45% 0; */
 }
 
 a {
-	display: block;
+  display: block;
 }

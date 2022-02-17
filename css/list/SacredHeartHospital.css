@@ -1,37 +1,39 @@
 @charset "utf-8";
 
 @media (max-aspect-ratio: 1870/3033) {
-	
-	img {width: 50%;}
-	
-	#container {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	}
-	
+  img {
+    width: 50%;
+  }
+
+  #container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 @media (min-aspect-ratio: 1870/3033) and (max-aspect-ratio: 935/1011) {
-	
-	img {height: 33.333vh; height: calc(var(--vh, 1vh) * 33.333);}
-	
+  img {
+    height: 33.333vh;
+    height: calc(var(--vh, 1vh) * 33.333);
+  }
 }
 
 @media (min-aspect-ratio: 935/1011) and (max-aspect-ratio: 935/674) {
-	
-	img {width: 33.333%;}
-	
-	#container {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	}
-	
+  img {
+    width: 33.333%;
+  }
+
+  #container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
-	
+
 @media (min-aspect-ratio: 935/674) {
-	
-	img {height: 50vh; height: calc(var(--vh, 1vh) * 50);}
-	
+  img {
+    height: 50vh;
+    height: calc(var(--vh, 1vh) * 50);
+  }
 }
