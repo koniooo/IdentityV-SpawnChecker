@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+body {
+  font-size: 15vmin;
+  background-color: #292b2f;
+}
+
+a {
+  position: relative;
+  color: rgb(224, 224, 224);
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-aspect-ratio: 1/1) {
+  svg {
+    position: absolute;
+    bottom: 1.25vh;
+    bottom: calc(var(--vh, 1vh) * 1.25);
+    right: 5%;
+    height: 7.5vh;
+    height: calc(var(--vh, 1vh) * 7.5);
+  }
+
+  body {
+    font-size: 7vmin;
+  }
+
+  a {
+    height: 9.09vh;
+    height: calc(var(--vh, 1vh) * 9.09);
+    width: 100%;
+  }
+
+  br {
+    display: none;
+  }
+
+  #factory {
+    object-position: 0 52%;
+  }
+
+  #church {
+    object-position: 0 90%;
+  }
+
+  #hospital {
+    object-position: 0 52%;
+  }
+
+  #village {
+    object-position: 0 85%;
+  }
+
+  #park {
+    object-position: 0 52%;
+  }
+
+  #memory {
+    object-position: 0 100%;
+  }
+
+  #town {
+    object-position: 0 88%;
+  }
+
+  #asylum {
+    object-position: 0 70%;
+  }
+
+  #cave {
+    object-position: 0 95%;
+  }
+
+  #china {
+    object-position: 0 100%;
+  }
+
+  #top {
+    object-position: 0 60%;
+  }
+}
+
+@media (min-aspect-ratio: 1/1) {
+  svg {
+    position: absolute;
+    bottom: 3vh;
+    bottom: calc(var(--vh, 1vh) * 3);
+    right: 3vh;
+    right: calc(var(--vh, 1vh) * 3);
+    height: 12.5vh;
+    height: calc(var(--vh, 1vh) * 12.5);
+  }
+
+  body {
+    font-size: 2.5vw;
+  }
+
+  #container {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100%;
+  }
+
+  #upper,
+  #lower {
+    height: 50vh;
+    height: calc(var(--vh, 1vh) * 50);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+
+  a {
+    height: 35vh;
+    height: calc(var(--vh, 1vh) * 35);
+    border-radius: 7vh;
+    border-radius: calc(var(--vh, 1vh) * 7);
+    transition: 0.3s;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+  }
+
+  a:hover {
+    filter: drop-shadow(18px 18px 18px rgba(0, 0, 0, 0.8));
+  }
+
+  #upper a {
+    width: 18%;
+  }
+
+  #lower a {
+    width: 15%;
+  }
+
+  img {
+    border-radius: 7vh;
+    border-radius: calc(var(--vh, 1vh) * 7);
+  }
+
+  #ws {
+    font-size: 2vw;
+  }
+
+  #factory {
+    object-position: 57% 0;
+  }
+
+  #church {
+    object-position: 49% 0;
+  }
+
+  #hospital {
+    object-position: 40% 0;
+  }
+
+  #village {
+    object-position: 40% 0;
+  }
+
+  #park {
+    object-position: 28% 0;
+  }
+
+  #memory {
+    object-position: 50% 0;
+  }
+
+  #town {
+    object-position: 22% 0;
+  }
+
+  #asylum {
+    object-position: 52% 0;
+  }
+
+  #cave {
+    object-position: 15% 0;
+  }
+
+  #china {
+    object-position: 45% 0;
+  }
+
+  #top {
+    object-position: 47% 0;
+  }
+}

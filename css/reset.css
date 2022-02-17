@@ -8,6 +8,7 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
+/* prettier-ignore */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -28,30 +29,30 @@ time, mark, audio, video {
     vertical-align:baseline;
     background:transparent;
 }
-
+/* prettier-ignore */
 body {
     line-height:1;
 }
-
+/* prettier-ignore */
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
     display:block;
 }
-
+/* prettier-ignore */
 nav ul {
     list-style:none;
 }
-
+/* prettier-ignore */
 blockquote, q {
     quotes:none;
 }
-
+/* prettier-ignore */
 blockquote:before, blockquote:after,
 q:before, q:after {
     content:'';
     content:none;
 }
-
+/* prettier-ignore */
 a {
     margin:0;
     padding:0;
@@ -61,6 +62,7 @@ a {
 }
 
 /* change colours to suit your needs */
+/* prettier-ignore */
 ins {
     background-color:#ff9;
     color:#000;
@@ -68,28 +70,30 @@ ins {
 }
 
 /* change colours to suit your needs */
+/* prettier-ignore */
 mark {
     background-color:#ff9;
     color:#000;
     font-style:italic;
     font-weight:bold;
 }
-
+/* prettier-ignore */
 del {
     text-decoration: line-through;
 }
-
+/* prettier-ignore */
 abbr[title], dfn[title] {
     border-bottom:1px dotted;
     cursor:help;
 }
-
+/* prettier-ignore */
 table {
     border-collapse:collapse;
     border-spacing:0;
 }
 
 /* change border colour to suit your needs */
+/* prettier-ignore */
 hr {
     display:block;
     height:1px;
@@ -99,26 +103,29 @@ hr {
     padding:0;
 }
 
+/* prettier-ignore */
 input, select {
     vertical-align:middle;
 }
 
-
-
 /* for IdentityV-SpawnChecker */
 
 body {
-	background: #000000;
-	text-align: center;
-	box-sizing: border-box;
-	white-space: nowrap;
+  font-family: "Helvetica Neue", "Segoe UI", "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Yu Gothic", sans-serif;
+  font-weight: 700;
+  background-color: #000000;
+  text-align: center;
+  box-sizing: border-box;
+  white-space: nowrap;
 }
 
 img {
-    vertical-align:bottom;
-	object-fit: contain;
+  vertical-align: bottom;
+  object-fit: contain;
 }
 
 a {
   text-decoration: none;
+  display: block;
 }

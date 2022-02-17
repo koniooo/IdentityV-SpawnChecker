@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+svg {width: 6.65%;}
+
+#hnt1 {top: 70.6%; left: 76.8%;}
+
+#hnt2 {top: 17.9%; left: 47%;}
+
+#hnt3 {top: 67.7%; left: 59.7%;}
+
+#hnt4 {top: 22.5%; left: 72.5%;}
+
+#hnt5 {top: 67.6%; left: 38.2%;}
+
+#hnt6 {top: 70.6%; left: 33.4%;}
+
+#hnt7 {top: 29.4%; left: 4.6%;}
+
+@media (max-aspect-ratio: 123/85) {
+	
+	#container {width: 100%;}
+	
+	#pad {height: calc(50vh - 4250vw/123); height: calc(calc(var(--vh, 1vh) * 50) - 4250vw/123);}
+	
+	img {width: 100%;}
+	
+}
+
+@media (min-aspect-ratio: 123/85) {
+	
+	#container {height: 100%;}
+	
+	#pad {display: none;}
+	
+	img {height: 100vh; height: calc(var(--vh, 1vh) * 100);}
+	
+}

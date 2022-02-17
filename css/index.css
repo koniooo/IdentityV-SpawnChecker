@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+body {
+  font-size: 15vmin;
+  background-color: #292b2f;
+}
+
+img {
+  display: block;
+}
+
+#survivor,
+#hunter,
+#list {
+  position: relative;
+  color: #292b2f;
+  font-weight: 900;
+}
+
+#survivor {
+  background-color: #00ffff;
+}
+
+#hunter {
+  background-color: #ed1e79;
+}
+
+#list {
+  background-color: #ffff00;
+}
+
+footer {
+  color: #ffffff;
+  height: 10vh;
+  height: calc(var(--vh, 1vh) * 10);
+  line-height: 10vh;
+  line-height: calc(var(--vh, 1vh) * 10);
+  font-size: 2.5vh;
+  font-size: calc(var(--vh, 1vh) * 2.5);
+}
+
+footer a {
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+#twitter {
+  height: 4vh;
+  height: calc(var(--vh, 1vh) * 4);
+  transform: translateY(30%);
+}
+
+@media (max-aspect-ratio: 1/1) {
+  #identityv {
+    height: 6.5vh;
+    height: calc(var(--vh, 1vh) * 6.5);
+    margin: 2.5vh 0 0 5%;
+    margin: calc(var(--vh, 1vh) * 2.5) 0 0 5%;
+  }
+
+  #logo2 {
+    height: 25vh;
+    height: calc(var(--vh, 1vh) * 25);
+    max-width: 90%;
+    margin: 0 auto 1vh auto;
+    margin: 0 auto calc(var(--vh, 1vh) * 1) auto;
+  }
+
+  #logo1 {
+    display: none;
+  }
+
+  #survivor,
+  #hunter,
+  #list {
+    font-size: 12vw;
+    height: 16.8vh;
+    height: calc(var(--vh, 1vh) * 16.8);
+    width: 90%;
+    line-height: 16.8vh;
+    line-height: calc(var(--vh, 1vh) * 16.8);
+    border-radius: 3vh;
+    border-radius: calc(var(--vh, 1vh) * 3);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #survivor,
+  #hunter {
+    margin-bottom: 2.3vh;
+    margin-bottom: calc(var(--vh, 1vh) * 2.3);
+  }
+
+  svg {
+    position: absolute;
+    width: 10vh;
+    width: calc(var(--vh, 1vh) * 10);
+    height: 10vh;
+    height: calc(var(--vh, 1vh) * 10);
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  h1 {
+    transform: translateX(-10%);
+  }
+}
+
+@media (min-aspect-ratio: 1/1) {
+  #identityv {
+    height: 10vh;
+    height: calc(var(--vh, 1vh) * 10);
+    padding: 2.5vh 0 0 2.5%;
+    padding: calc(var(--vh, 1vh) * 2.5) 0 0 2.5%;
+  }
+
+  #logo2 {
+    display: none;
+  }
+
+  #logo1 {
+    height: 25vh;
+    height: calc(var(--vh, 1vh) * 25);
+    max-width: 95%;
+    margin: 0 auto 2.5vh auto;
+    margin: 0 auto calc(var(--vh, 1vh) * 2.5) auto;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #survivor,
+  #hunter,
+  #list {
+    font-size: 5vw;
+    height: 50vh;
+    height: calc(var(--vh, 1vh) * 50);
+    line-height: 50vh;
+    line-height: calc(var(--vh, 1vh) * 50);
+    width: 30%;
+    border-radius: 10vh;
+    border-radius: calc(var(--vh, 1vh) * 10);
+  }
+
+  svg {
+    position: absolute;
+    width: 12vh;
+    width: calc(var(--vh, 1vh) * 12);
+    height: 12vh;
+    height: calc(var(--vh, 1vh) * 12);
+    right: 10%;
+    bottom: 5%;
+  }
+}

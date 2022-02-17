@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#container {
+  position: relative;
+  display: inline-block;
+}
+
+svg {
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+}
+
+svg:hover {
+  filter: drop-shadow(0 0 18px rgb(0, 0, 0));
+}
+
+#back,
+#reload {
+  position: absolute;
+  width: 10vmin;
+  height: auto;
+  cursor: pointer;
+}
+
+#back {
+  left: 2.5vmin;
+}
+
+#reload {
+  right: 2.5vmin;
+}
+
+@media (max-aspect-ratio: 1/1) {
+  #back,
+  #reload {
+    bottom: 2.5vmin;
+  }
+}
+
+@media (min-aspect-ratio: 1/1) {
+  #back,
+  #reload {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
