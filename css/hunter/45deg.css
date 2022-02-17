@@ -1,3 +1,5 @@
 @charset "utf-8";
 
-svg {transform: rotate(45deg)}
+svg {
+  transform: rotate(45deg);
+}

@@ -1,37 +1,70 @@
 @charset "utf-8";
 
-svg {width: 9.62%;}
+svg {
+  width: 9.62%;
+}
 
-#hnt1 {top: 44%; left: 8.4%;}
+#hnt1 {
+  top: 44%;
+  left: 8.4%;
+}
 
-#hnt2 {top: 20%; left: 7%;}
+#hnt2 {
+  top: 20%;
+  left: 7%;
+}
 
-#hnt3 {top: 0%; left: 35%;}
+#hnt3 {
+  top: 0%;
+  left: 35%;
+}
 
-#hnt4 {top: 19.7%; left: 82.3%;}
+#hnt4 {
+  top: 19.7%;
+  left: 82.3%;
+}
 
-#hnt5 {top: 37.7%; right: 1%;}
+#hnt5 {
+  top: 37.7%;
+  right: 1%;
+}
 
-#hnt6 {top: 68.7%; left: 77%;}
+#hnt6 {
+  top: 68.7%;
+  left: 77%;
+}
 
-#hnt7 {top: 65%; left: 26.4%;}
+#hnt7 {
+  top: 65%;
+  left: 26.4%;
+}
 
 @media (max-aspect-ratio: 13/15) {
-	
-	#pad {height: calc(50vh - 750vw/13); height: calc(calc(var(--vh, 1vh) * 50) - 750vw/13);}
-	
-	#container {width: 100%;}
-	
-	img {width: 100%;}
-	
+  #pad {
+    height: calc(50vh - 750vw / 13);
+    height: calc(calc(var(--vh, 1vh) * 50) - 750vw / 13);
+  }
+
+  #container {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
 }
 
 @media (min-aspect-ratio: 13/15) {
-	
-	#pad {display: none;}
-	
-	#container {height: 100%;}
-	
-	img {height: 100vh; height: calc(var(--vh, 1vh) * 100);}
-	
+  #pad {
+    display: none;
+  }
+
+  #container {
+    height: 100%;
+  }
+
+  img {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+  }
 }

@@ -1,11 +1,21 @@
 @charset "utf-8";
 
-#hnt1 {transform: rotate(15deg)}
+#hnt1 {
+  transform: rotate(15deg);
+}
 
-#hnt2 {transform: rotate(15deg)}
+#hnt2 {
+  transform: rotate(15deg);
+}
 
-#hnt3 {transform: rotate(135deg)}
+#hnt3 {
+  transform: rotate(135deg);
+}
 
-#hnt4 {transform: rotate(180deg)}
+#hnt4 {
+  transform: rotate(180deg);
+}
 
-#hnt5 {transform: rotate(-45deg)}
+#hnt5 {
+  transform: rotate(-45deg);
+}

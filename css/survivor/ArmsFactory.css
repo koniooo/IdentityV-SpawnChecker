@@ -1,29 +1,85 @@
 @charset "utf-8";
 
-#srv1 {top: 13.8%; left: 42%;}
+#srv1 {
+  top: 13.8%;
+  left: 42%;
+}
 
-#srv2 {top: 16.4%; left: 56.5%; transform: rotate(45deg); width: 16.04%}
+#srv2 {
+  top: 16.4%;
+  left: 56.5%;
+  transform: rotate(45deg);
+  width: 16.04%;
+}
 
-#srv3 {top: 35.5%; left: 56.6%; transform: rotate(45deg);}
+#srv3 {
+  top: 35.5%;
+  left: 56.6%;
+  transform: rotate(45deg);
+}
 
-#srv4 {top: 36.5%; left: 37%; transform: rotate(135deg);}
+#srv4 {
+  top: 36.5%;
+  left: 37%;
+  transform: rotate(135deg);
+}
 
-#srv5 {top: 46.2%; left: 37.5%; transform: rotate(45deg);}
+#srv5 {
+  top: 46.2%;
+  left: 37.5%;
+  transform: rotate(45deg);
+}
 
-#srv6 {top: 48.2%; left: 20.8%; transform: rotate(45deg);}
+#srv6 {
+  top: 48.2%;
+  left: 20.8%;
+  transform: rotate(45deg);
+}
 
-#srv7 {top: 54.8%; left: 3.8%; transform: rotate(45deg);}
+#srv7 {
+  top: 54.8%;
+  left: 3.8%;
+  transform: rotate(45deg);
+}
 
-#srv8 {top: 62.2%; left: 25%; transform: rotate(45deg);}
+#srv8 {
+  top: 62.2%;
+  left: 25%;
+  transform: rotate(45deg);
+}
 
-#srv9 {top: 80.2%; left: 31.7%; transform: rotate(-135deg);}
+#srv9 {
+  top: 80.2%;
+  left: 31.7%;
+  transform: rotate(-135deg);
+}
 
-#srv10 {top: 66.6%; left: 48%; transform: rotate(-120deg);}
+#srv10 {
+  top: 66.6%;
+  left: 48%;
+  transform: rotate(-120deg);
+}
 
-#srv11 {top: 85.6%; left: 69.6%; transform: rotate(45deg);}
+#srv11 {
+  top: 85.6%;
+  left: 69.6%;
+  transform: rotate(45deg);
+}
 
-#srv12 {top: 50.5%; left: 53.8%; transform: rotate(45deg);}
+#srv12 {
+  top: 50.5%;
+  left: 53.8%;
+  transform: rotate(45deg);
+}
 
-#srv13 {top: 51.6%; left: 64.4%; transform: rotate(135deg);}
+#srv13 {
+  top: 51.6%;
+  left: 64.4%;
+  transform: rotate(135deg);
+}
 
-#srv14 {top: 56%; left: 76%; transform: rotate(180deg);}
+#srv14 {
+  top: 56%;
+  left: 76%;
+  transform: rotate(180deg);
+}

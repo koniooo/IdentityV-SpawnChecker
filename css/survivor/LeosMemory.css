@@ -1,45 +1,134 @@
 @charset "utf-8";
 
-#srv1 {top: 8%; left: 25%; transform: rotate(-90deg);}
+#srv1 {
+  top: 8%;
+  left: 25%;
+  transform: rotate(-90deg);
+}
 
-#srv2 {top: 26%; left: 12%; transform: rotate(-120deg);}
+#srv2 {
+  top: 26%;
+  left: 12%;
+  transform: rotate(-120deg);
+}
 
-#srv3 {top: 20.5%; left: 42%; transform: rotate(-45deg);}
+#srv3 {
+  top: 20.5%;
+  left: 42%;
+  transform: rotate(-45deg);
+}
 
-#srv4 {top: 13%; left: 57.3%; transform: rotate(-105deg);}
+#srv4 {
+  top: 13%;
+  left: 57.3%;
+  transform: rotate(-105deg);
+}
 
-#srv5 {top: 18%; left: 65.5%; transform: rotate(45deg);}
+#srv5 {
+  top: 18%;
+  left: 65.5%;
+  transform: rotate(45deg);
+}
 
-#srv6 {top: 10%; left: 82%; transform: rotate(-45deg);}
+#srv6 {
+  top: 10%;
+  left: 82%;
+  transform: rotate(-45deg);
+}
 
-#srv7 {top: 22%; left: 81%; transform: rotate(-105deg);}
+#srv7 {
+  top: 22%;
+  left: 81%;
+  transform: rotate(-105deg);
+}
 
-#srv8 {top: 32%; left: 55%; transform: rotate(45deg);}
+#srv8 {
+  top: 32%;
+  left: 55%;
+  transform: rotate(45deg);
+}
 
-#srv9 {top: 35.8%; left: 75.5%; transform: rotate(135deg);}
+#srv9 {
+  top: 35.8%;
+  left: 75.5%;
+  transform: rotate(135deg);
+}
 
-#srv10 {top: 44.2%; left: 72%; transform: rotate(15deg);}
+#srv10 {
+  top: 44.2%;
+  left: 72%;
+  transform: rotate(15deg);
+}
 
-#srv11 {top: 33%; left: 35.3%; transform: rotate(-105deg);}
+#srv11 {
+  top: 33%;
+  left: 35.3%;
+  transform: rotate(-105deg);
+}
 
-#srv12 {top: 42.6%; left: 46.4%; transform: rotate(-45deg);}
+#srv12 {
+  top: 42.6%;
+  left: 46.4%;
+  transform: rotate(-45deg);
+}
 
-#srv13 {top: 46.5%; left: 21.4%; transform: rotate(-135deg);}
+#srv13 {
+  top: 46.5%;
+  left: 21.4%;
+  transform: rotate(-135deg);
+}
 
-#srv14 {top: 38%; left: 24.3%; transform: rotate(-75deg);}
+#srv14 {
+  top: 38%;
+  left: 24.3%;
+  transform: rotate(-75deg);
+}
 
-#srv15 {top: 53%; left: 1%; transform: rotate(75deg);}
+#srv15 {
+  top: 53%;
+  left: 1%;
+  transform: rotate(75deg);
+}
 
-#srv16 {top: 60.3%; left: 72.5%; transform: rotate(135deg);}
+#srv16 {
+  top: 60.3%;
+  left: 72.5%;
+  transform: rotate(135deg);
+}
 
-#srv17 {top: 53.7%; left: 46.2%; transform: rotate(45deg);}
+#srv17 {
+  top: 53.7%;
+  left: 46.2%;
+  transform: rotate(45deg);
+}
 
-#srv18 {top: 61.5%; left: 52%; transform: rotate(-135deg);}
+#srv18 {
+  top: 61.5%;
+  left: 52%;
+  transform: rotate(-135deg);
+}
 
-#srv19 {top: 61.7%; left: 37.5%; transform: rotate(-45deg);}
+#srv19 {
+  top: 61.7%;
+  left: 37.5%;
+  transform: rotate(-45deg);
+}
 
-#srv20 {top: 73.5%; left: 31.4%; transform: rotate(-135deg);}
+#srv20 {
+  top: 73.5%;
+  left: 31.4%;
+  transform: rotate(-135deg);
+}
 
-#srv21 {top: 82.2%; left: 44.1%; transform: rotate(-90deg);}
+#srv21 {
+  top: 82.2%;
+  left: 44.1%;
+  transform: rotate(-90deg);
+}
 
-#srv22 {top: 66%; left: 10.2%; transform: rotate(45deg); width: 19.25%;}
+#srv22 {
+  top: 66%;
+  left: 10.2%;
+  transform: rotate(45deg);
+  width: 19.25%;
+}
