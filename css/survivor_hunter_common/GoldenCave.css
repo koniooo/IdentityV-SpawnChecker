@@ -82,10 +82,6 @@ svg {
   img {
     width: 100%;
   }
-
-  br {
-    display: none;
-  }
 }
 
 @media (min-aspect-ratio: 2764/935) {
@@ -97,10 +93,6 @@ svg {
   img {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
-  }
-
-  br {
-    display: none;
   }
 }
 
