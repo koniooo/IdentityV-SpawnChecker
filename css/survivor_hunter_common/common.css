@@ -6,8 +6,6 @@ html {
 
 body {
   height: 100%;
-
-  /* 以下追加箇所 */
   display: flex;
   justify-content: center;
   align-items: center;
