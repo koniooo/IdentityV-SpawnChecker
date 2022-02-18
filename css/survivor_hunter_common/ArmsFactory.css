@@ -32,3 +32,24 @@ svg {
   top: 54.8%;
   left: 72.8%;
 }
+
+@media (max-aspect-ratio: 935/1106) {
+  #container {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-aspect-ratio: 935/1106) {
+  #container {
+    height: 100%;
+  }
+
+  img {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+  }
+}

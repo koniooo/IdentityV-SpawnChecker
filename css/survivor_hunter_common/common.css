@@ -18,16 +18,10 @@ body {
   display: inline-block;
 }
 
-img {
-  width: 100%;
-  max-height: 100vh;
-  max-height: calc(var(--vh, 1vh) * 100);
-}
-
 svg {
   position: absolute;
   cursor: pointer;
-  transition: filter 0.3s;
+  transition: 0.3s;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
 }
 
