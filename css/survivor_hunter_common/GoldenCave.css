@@ -51,11 +51,6 @@ svg {
 }
 
 @media (max-aspect-ratio: 691/935) {
-  #pad {
-    height: calc(50vh - 46750vw / 691);
-    height: calc(calc(var(--vh, 1vh) * 50) - 46750vw / 691);
-  }
-
   #container1,
   #container2 {
     width: 100%;
@@ -67,10 +62,6 @@ svg {
 }
 
 @media (min-aspect-ratio: 691/935) and (max-aspect-ratio: 1382/935) {
-  #pad {
-    display: none;
-  }
-
   #container1,
   #container2 {
     height: 50%;
@@ -83,11 +74,6 @@ svg {
 }
 
 @media (min-aspect-ratio: 1382/935) and (max-aspect-ratio: 2764/935) {
-  #pad {
-    height: calc(50vh - 23375vw / 1382);
-    height: calc(calc(var(--vh, 1vh) * 50) - 23375vw / 1382);
-  }
-
   #container1,
   #container2 {
     width: 50%;
@@ -103,10 +89,6 @@ svg {
 }
 
 @media (min-aspect-ratio: 2764/935) {
-  #pad {
-    display: none;
-  }
-
   #container1,
   #container2 {
     height: 100%;

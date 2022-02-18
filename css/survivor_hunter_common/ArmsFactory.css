@@ -34,11 +34,6 @@ svg {
 }
 
 @media (max-aspect-ratio: 935/1106) {
-  #pad {
-    height: calc(50vh - 11060vw / 187);
-    height: calc(calc(var(--vh, 1vh) * 50) - 11060vw / 187);
-  }
-
   #container {
     width: 100%;
   }
@@ -49,10 +44,6 @@ svg {
 }
 
 @media (min-aspect-ratio: 935/1106) {
-  #pad {
-    display: none;
-  }
-
   #container {
     height: 100%;
   }

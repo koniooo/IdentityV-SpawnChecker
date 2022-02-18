@@ -54,11 +54,6 @@ svg {
     width: 100%;
   }
 
-  #pad {
-    height: calc(50vh - 650vw / 11);
-    height: calc(calc(var(--vh, 1vh) * 50) - 650vw / 11);
-  }
-
   img {
     width: 100%;
   }
@@ -67,10 +62,6 @@ svg {
 @media (min-aspect-ratio: 11/13) {
   #container {
     height: 100%;
-  }
-
-  #pad {
-    display: none;
   }
 
   img {
