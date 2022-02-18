@@ -18,6 +18,12 @@ body {
   display: inline-block;
 }
 
+img {
+  width: 100%;
+  max-height: 100vh;
+  max-height: calc(var(--vh, 1vh) * 100);
+}
+
 svg {
   position: absolute;
   cursor: pointer;
