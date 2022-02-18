@@ -28,24 +28,3 @@ svg {
   top: 69.4%;
   left: 71.2%;
 }
-
-@media (max-aspect-ratio: 1465/729) {
-  #container {
-    width: 100%;
-  }
-
-  img {
-    width: 100%;
-  }
-}
-
-@media (min-aspect-ratio: 1465/729) {
-  #container {
-    height: 100%;
-  }
-
-  img {
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-  }
-}
