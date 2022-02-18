@@ -38,45 +38,50 @@
 }
 
 #srv7 {
-  top: 62.7%;
-  left: 42%;
-  transform: rotate(45deg);
-  width: 16.04%;
-}
-
-#srv8 {
   top: 26.5%;
   left: 77.5%;
   transform: rotate(90deg);
 }
 
-#srv9 {
+#srv8 {
   top: 34.4%;
   left: 84.4%;
   transform: rotate(-135deg);
 }
 
-#srv10 {
+#srv9 {
   top: 44.6%;
   left: 88.3%;
   transform: rotate(-135deg);
 }
 
-#srv11 {
+#srv10 {
   top: 51.8%;
   left: 82%;
   transform: rotate(45deg);
 }
 
-#srv12 {
+#srv11 {
   top: 65.5%;
   left: 62%;
   transform: rotate(45deg);
   width: 16.04%;
 }
 
-#srv13 {
+#srv12 {
   top: 75.5%;
   left: 81%;
+  transform: rotate(45deg);
+}
+
+#srv13 {
+  top: 71.5%;
+  left: 46.5%;
+  transform: rotate(45deg);
+}
+
+#srv14 {
+  top: 60.8%;
+  left: 44.8%;
   transform: rotate(45deg);
 }

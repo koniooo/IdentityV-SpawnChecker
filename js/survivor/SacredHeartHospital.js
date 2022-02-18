@@ -54,43 +54,47 @@ elms.forEach((elm) => {
 
       case 7:
         document.getElementById("map0").style.display = "inline";
-        document.getElementById("hnt1").style.display = "inline";
-        document.getElementById("hnt4").style.display = "inline";
-        break;
-
-      case 8:
-        document.getElementById("map0").style.display = "inline";
         document.getElementById("hnt4").style.display = "inline";
         document.getElementById("hnt6").style.display = "inline";
         break;
 
-      case 9:
+      case 8:
         document.getElementById("map1").style.display = "inline";
         document.getElementById("hnt1").style.display = "inline";
         break;
 
-      case 10:
+      case 9:
         document.getElementById("map6").style.display = "inline";
         document.getElementById("hnt6").style.display = "inline";
         break;
 
-      case 11:
+      case 10:
         document.getElementById("map1").style.display = "inline";
         document.getElementById("hnt1").style.display = "inline";
         break;
 
-      case 12:
+      case 11:
         document.getElementById("map0").style.display = "inline";
         document.getElementById("hnt2").style.display = "inline";
         document.getElementById("hnt3").style.display = "inline";
         document.getElementById("hnt5").style.display = "inline";
         break;
 
-      case 13:
+      case 12:
         document.getElementById("map0").style.display = "inline";
         document.getElementById("hnt3").style.display = "inline";
         document.getElementById("hnt5").style.display = "inline";
         document.getElementById("hnt6").style.display = "inline";
+        break;
+
+      case 13:
+        document.getElementById("map4").style.display = "inline";
+        document.getElementById("hnt4").style.display = "inline";
+        break;
+
+      case 14:
+        document.getElementById("map1").style.display = "inline";
+        document.getElementById("hnt1").style.display = "inline";
         break;
     }
   });
