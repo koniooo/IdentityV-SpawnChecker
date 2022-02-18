@@ -27,7 +27,7 @@ img {
 svg {
   position: absolute;
   cursor: pointer;
-  transition: 0.3s;
+  transition: filter 0.3s;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
 }
 

@@ -128,7 +128,7 @@ h1 {
     height: calc(var(--vh, 1vh) * 35);
     border-radius: 7vh;
     border-radius: calc(var(--vh, 1vh) * 7);
-    transition: 0.3s;
+    transition: filter 0.3s;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
   }
 
