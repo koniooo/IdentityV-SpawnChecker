@@ -40,10 +40,8 @@ elms.forEach((elm) => {
 
       case 5:
         document.getElementById("map0").style.display = "inline";
-        document.getElementById("hnt4").style.display = "inline";
         document.getElementById("hnt5").style.display = "inline";
         document.getElementById("hnt6").style.display = "inline";
-        document.getElementById("min4").style.display = "inline";
         document.getElementById("min5").style.display = "inline";
         document.getElementById("min6").style.display = "inline";
         break;
@@ -78,8 +76,7 @@ elms.forEach((elm) => {
         break;
 
       case 11:
-        document.getElementById("map0").style.display = "inline";
-        document.getElementById("hnt4").style.display = "inline";
+        document.getElementById("map7").style.display = "inline";
         document.getElementById("hnt7").style.display = "inline";
         break;
 
@@ -99,8 +96,7 @@ elms.forEach((elm) => {
         break;
 
       case 15:
-        document.getElementById("map0").style.display = "inline";
-        document.getElementById("hnt4").style.display = "inline";
+        document.getElementById("map7").style.display = "inline";
         document.getElementById("hnt7").style.display = "inline";
         break;
 
@@ -110,9 +106,8 @@ elms.forEach((elm) => {
         break;
 
       case 17:
-        document.getElementById("map0").style.display = "inline";
+        document.getElementById("map2").style.display = "inline";
         document.getElementById("hnt2").style.display = "inline";
-        document.getElementById("hnt4").style.display = "inline";
         break;
 
       case 18:
