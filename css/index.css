@@ -37,6 +37,7 @@ footer {
   line-height: calc(var(--vh, 1vh) * 10);
   font-size: 2.5vh;
   font-size: calc(var(--vh, 1vh) * 2.5);
+  position: relative;
 }
 
 footer a {
@@ -48,9 +49,11 @@ span {
 }
 
 #twitter {
-  height: 4vh;
-  height: calc(var(--vh, 1vh) * 4);
-  transform: translateY(30%);
+  height: 3.5vh;
+  height: calc(var(--vh, 1vh) * 3.5);
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
 }
 
 @media (max-aspect-ratio: 1/1) {
