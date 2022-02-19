@@ -33,11 +33,12 @@ footer {
   color: #ffffff;
   height: 10vh;
   height: calc(var(--vh, 1vh) * 10);
-  line-height: 10vh;
-  line-height: calc(var(--vh, 1vh) * 10);
-  font-size: 2.5vh;
-  font-size: calc(var(--vh, 1vh) * 2.5);
+  font-size: 2.2vh;
+  font-size: calc(var(--vh, 1vh) * 2.2);
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer a {
@@ -45,15 +46,17 @@ footer a {
 }
 
 span {
-  display: inline-block;
+  margin-right: 1.8vmin;
 }
 
 #twitter {
   height: 3.5vh;
   height: calc(var(--vh, 1vh) * 3.5);
-  transform: translateY(-50%);
-  top: 50%;
-  position: absolute;
+}
+
+#survival_tool {
+  height: 4vh;
+  height: calc(var(--vh, 1vh) * 4);
 }
 
 @media (max-aspect-ratio: 1/1) {
