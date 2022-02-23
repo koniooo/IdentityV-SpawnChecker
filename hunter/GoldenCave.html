@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SD5WTZZJ31"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-SD5WTZZJ31");
+    </script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <title>第五人格スポーンチェッカー／ハンター／黄金の石窟</title>
+    <meta
+      name="description"
+      content="自分のスポーンから相手ハンター／サバイバーのスポーンを瞬時に特定できるツール。一画面で全てのスポーンパターンを確認できるリスト機能も実装！"
+    />
+    <meta
+      property="og:url"
+      content="https://koniooo.github.io/IdentityV-SpawnChecker/"
+    />
+    <meta property="og:title" content="第五人格スポーンチェッカー" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:description"
+      content="自分のスポーンから相手ハンター／サバイバーのスポーンを瞬時に特定できるツール。一画面で全てのスポーンパターンを確認できるリスト機能も実装！"
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/card.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@konio_tracy" />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/24.png"
+      sizes="24x24"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/48.png"
+      sizes="48x48"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/64.png"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/128.png"
+      sizes="128x128"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/192.png"
+      sizes="192x192"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/256.png"
+      sizes="256x256"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/512.png"
+      sizes="512x512"
+      type="image/png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/256.png"
+    />
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/survivor_hunter_common/common.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/survivor_hunter_common/GoldenCave.css"
+    />
+    <link rel="stylesheet" href="../../css/hunter/common.css" />
+    <link rel="stylesheet" href="../../css/hunter/GoldenCave.css" />
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <symbol id="hnt">
+          <path d="M2.5 10A7.5 7.5 0 0110 2.5h34L2.5 44z" fill="#fff" />
+          <path
+            d="M38 5L5 38V10a5 5 0 015-5h28m12-5H10A10 10 0 000 10v40L50 0z"
+            fill="#e55c5e"
+          />
+          <circle cx="50" cy="50" r="50" fill="#e55c5e" />
+          <path
+            d="M30.7 57.4a13.4 13.4 0 01-6-9.7c-.2-2.3-1.1-4.5-4-5a3.9 3.9 0 01-1.6-1c-1.7-1.5-1.6-2.9.3-4a13.7 13.7 0 012.3-1c.7-.2 1.1-.6.7-1.4-.9-1.5 0-2.3 1.3-2.4 4-.5 7.1-2.6 10.7-4a13.9 13.9 0 0115.5 2.8c.8.8 1.6 2 2.6 2.3 3.4 1 3.6 3.4 2.8 6.2-.2 1-1 2.6-.2 2.8 1.5.2 1-1.7 1.7-2.6.7-1 .1-3.6 2.1-3.1 1 .3 0 2.4-.1 3.6a16.9 16.9 0 01-.8 3l.3.6c.3-.1.6-.2.8-.5a10.2 10.2 0 001.4-4.7c.2-2 1.2-2.6 3.3-2.8 5.5-.6 5.1-.8 4.6 4.7a99.9 99.9 0 01-4.5 20.3 5.7 5.7 0 01-3.4 4c-2.6 1-4.8 3-7.6 3.8a.8.8 0 00-.3 1.2 1 1 0 00.8.4 28 28 0 0011.5-4.4 4.6 4.6 0 001.5-3c1-5 2.5-10 3.2-15 .6-4.3 1.5-8.5 2.4-12.7.3-1.5.7-3.1 2.6-3.3 1.7 0 2.8 1 3.5 2.4 2 3.4 1.7 7 .9 10.6l-4.6 19.3c-2.2 9.1-6.3 13-15.5 14.5-6 1-12 1.7-18.1 2.5-1.1.1-2.5.8-3-.7a3.1 3.1 0 011.3-4 34.7 34.7 0 017-3.5c.6-.1 1.3-.6 1-1.4 0-.2-.9-.3-1.3-.2L42 73.1a4 4 0 01-3-.3 3.1 3.1 0 01-1.7-2.8 2.4 2.4 0 012-2.4l5.4-1c.4-.1 1-.6 1-1 0-1-.9-.7-1.4-.7l-4.9 1c-.6 0-1.9.1-1.8-1.1 0-.7 1-.7 1.6-.8a70.5 70.5 0 0012.5-2.8 5.5 5.5 0 003.9-4.6c.1-.6.6-1.5 0-1.8-1-.4-1 .7-1.2 1.2l-.8 1.8a1.3 1.3 0 01-1.6.8 1.5 1.5 0 01-.7-1.2c.1-1.5.4-3 .6-4.4 0-.7.2-1.6-.5-1.8-1-.2-1.3.9-1.5 1.7l-.4 3.4A5.3 5.3 0 0145 61c-.8.1-1.7 0-2.5.3-5 1.3-9.2.7-11.8-4z"
+            fill="#fff"
+          />
+        </symbol>
+      </defs>
+    </svg>
+    <div id="container1">
+      <svg id="hnt1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <img id="map0" src="../../jpg/GoldenCave/hunter1.jpg" alt="" />
+      <img id="map1" src="../../jpg/GoldenCave/1.jpg" alt="" />
+      <img id="map2" src="../../jpg/GoldenCave/2.jpg" alt="" />
+      <img id="map3" src="../../jpg/GoldenCave/3.jpg" alt="" />
+      <img id="map4" src="../../jpg/GoldenCave/4.jpg" alt="" />
+      <img id="map5" src="../../jpg/GoldenCave/5.jpg" alt="" />
+      <img id="map6" src="../../jpg/GoldenCave/6.jpg" alt="" />
+      <img id="map7" src="../../jpg/GoldenCave/7.jpg" alt="" />
+      <img id="map8" src="../../jpg/GoldenCave/8.jpg" alt="" />
+    </div>
+    <div id="container2">
+      <svg id="hnt7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <img id="map02" src="../../jpg/GoldenCave/hunter2.jpg" alt="" />
+      <img id="map9" src="../../jpg/GoldenCave/9.jpg" alt="" />
+      <img id="map10" src="../../jpg/GoldenCave/10.jpg" alt="" />
+      <img id="map11" src="../../jpg/GoldenCave/11.jpg" alt="" />
+      <img id="map12" src="../../jpg/GoldenCave/12.jpg" alt="" />
+      <img id="map13" src="../../jpg/GoldenCave/13.jpg" alt="" />
+      <img id="map14" src="../../jpg/GoldenCave/14.jpg" alt="" />
+      <img id="map15" src="../../jpg/GoldenCave/15.jpg" alt="" />
+      <img id="map16" src="../../jpg/GoldenCave/16.jpg" alt="" />
+    </div>
+    <button
+      type="button"
+      onclick="window.history.back();"
+      class="back-and-reload-button"
+    >
+      <img id="back" src="../../svg/back.svg" alt="go_back" />
+    </button>
+    <button
+      type="button"
+      onclick="window.location.reload(false);"
+      class="back-and-reload-button"
+    >
+      <img id="reload" src="../../svg/reload.svg" alt="reload" />
+    </button>
+    <script src="../../js/vh.js"></script>
+    <script src="../../js/hunter_cave.js"></script>
+  </body>
+</html>
