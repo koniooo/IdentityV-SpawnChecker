@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SD5WTZZJ31"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-SD5WTZZJ31");
+    </script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <title>第五人格スポーンチェッカー／サバイバー／月の河公園</title>
+    <meta
+      name="description"
+      content="自分のスポーンから相手ハンター／サバイバーのスポーンを瞬時に特定できるツール。一画面で全てのスポーンパターンを確認できるリスト機能も実装！"
+    />
+    <meta
+      property="og:url"
+      content="https://koniooo.github.io/IdentityV-SpawnChecker/"
+    />
+    <meta property="og:title" content="第五人格スポーンチェッカー" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:description"
+      content="自分のスポーンから相手ハンター／サバイバーのスポーンを瞬時に特定できるツール。一画面で全てのスポーンパターンを確認できるリスト機能も実装！"
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/card.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@konio_tracy" />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/24.png"
+      sizes="24x24"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/48.png"
+      sizes="48x48"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/64.png"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/128.png"
+      sizes="128x128"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/192.png"
+      sizes="192x192"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/256.png"
+      sizes="256x256"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/512.png"
+      sizes="512x512"
+      type="image/png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="https://raw.githubusercontent.com/koniooo/IdentityV-SpawnChecker/main/png/favicon/256.png"
+    />
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/survivor_hunter_common/common.css" />
+    <link
+      rel="stylesheet"
+      href="../../css/survivor_hunter_common/MoonlitRiverPark.css"
+    />
+    <link rel="stylesheet" href="../../css/survivor/common.css" />
+    <link rel="stylesheet" href="../../css/survivor/MoonlitRiverPark.css" />
+  </head>
+  <body>
+    <div id="container">
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <symbol id="srv">
+            <path d="M2.5 10A7.5 7.5 0 0110 2.5h34L2.5 44z" fill="#fff" />
+            <path
+              d="M38 5L5 38V10a5 5 0 015-5h28m12-5H10A10 10 0 000 10v40L50 0z"
+              fill="#3498db"
+            />
+            <g id="circle">
+              <circle cx="50" cy="50" r="50" fill="#3498db" />
+              <path
+                d="M40.9 38.1c-1.3 1.2-2.4 2.4-2.1 4.3.2 2.3-1 3-3 2.8-2.8-.2-4 2.1-5.5 3.7-.2.2-.2.6-.2.8l.9-.3a3.4 3.4 0 00.3-.4c3.4-2.4 5.7-2.3 7.6.6 2 3 1.1 7.4-1.8 9.2a2.4 2.4 0 01-1.4.4c-3-.5-6.1-.5-9-1.2-2.5-.5-4.8-1.8-4.2-5.1a3.1 3.1 0 00-.6-1.9c-1-1.6-.3-2.4 1.2-3a6.5 6.5 0 001.8-1c.8-.6 1.3-1.4.6-2.5a20.9 20.9 0 01-1.9-3.5c-1.2-3.2 0-4.9 3.7-5l11-.1a.8.8 0 00.9-1l-.8-.3c-4.3-.2-8.6-.6-13-.6-4.8 0-6.2 2.5-3.6 6.6.9 1.5 1.5 3 2.4 4.4a.9.9 0 01-.3 1.2 2.2 2.2 0 01-1.4.2 1.7 1.7 0 01-1.1-.8c-1.2-3.6-3-7-3.6-10.8-.3-1.5.3-2.7 1.9-3 3-.6 5.9-2 9.2-1 2.2.5 4.7.2 7 .2 1 0 3 .4 3.1-.4.2-1.7-1.7-1.4-3-1.7-1.2-.4-1.5-1.3-.6-2.2a3.1 3.1 0 012.6-1.2l8.8.6c1.5.1 2 1 1.9 2.4a5.6 5.6 0 01-.3 2c-1.2 2.7.8 3.9 2.5 5.2a1.5 1.5 0 001.4 0c.9-.5 0-1-.4-1.4l-1.4-2c-.3-.5.1-1 .6-1 .5-.2 1.3-.2 1.4 0a10.3 10.3 0 01.5 1.9c.2.6.5 1.5 1 1.6 3.5 1.2 3.4 4.3 3.9 7.2a9.3 9.3 0 002.3 4.8c2.2 2.5 2.3 5.4 1 8.4-2.6 6.7-3.1 7.3-9.7 10.2-4 1.7-10-.4-12-4.2a1.4 1.4 0 010-1.8c3.3-3 2.4-6.6 1.4-10.2a15.4 15.4 0 01-.6-1.9c-.2-1 .3-1.6 1.3-1.4 1 .2 2 .6 2.9 1a8.5 8.5 0 0010.1-4.4 4.2 4.2 0 00-.2-4.2 1.6 1.6 0 00-1.2-.6.8.8 0 00-.7 1c1.1 3.5-1 5-3.5 6.3-2.6 1.4-4.9 0-7-1.2-1.6-.8-1.4-2.6-.8-4a10.7 10.7 0 011.7-2.4c.3-.3.8-.7.2-1 0-.1-.6.1-.8.3L41 38.1zM75.5 74.3a49 49 0 00-8.4 6.5 5.5 5.5 0 01-2.3.9c-4.2 1.1-4.4 1-5.3-3.4a32.8 32.8 0 01-1-9.9c.3-2.1.7-2.5 2.9-2.2 5.3.7 8.9-1.4 7.1-8.2a19.3 19.3 0 00-1.9-5.1 2 2 0 01.5-2.7c4.7-2.5 9.1-5.5 14.8-5 3 .2 3.9 1.1 3.4 4-.2 1.8-.8 3.6-1.2 5.3-1.4 6-4.8 11.3-6.7 17.1a11.5 11.5 0 01-2 2.7z"
+                fill="#fff"
+              />
+              <path
+                d="M65.2 55.2c1.5 1.5 2.3 5.6 1.6 7.5a4.2 4.2 0 01-5 2 1.3 1.3 0 01-1-1.4 19.7 19.7 0 013.1-8c.2-.3 1-.1 1.3-.1z"
+                fill="#fff"
+              />
+            </g>
+          </symbol>
+          <symbol id="hnt">
+            <circle cx="50" cy="50" r="50" fill="#e55c5e" />
+            <path
+              d="M31.1 41.5a13.4 13.4 0 012.7-11c1.4-1.8 2.3-4 .6-6.3a3.9 3.9 0 01-.4-2c-.1-2.2 1-3 3-2.5a13.7 13.7 0 012.3 1c.7.3 1.3.3 1.6-.6.4-1.7 1.6-1.6 2.6-.8 3.1 2.4 6.9 3.2 10.4 4.7a13.9 13.9 0 019 13c0 1.2-.3 2.5.2 3.5 1.6 3.1.1 4.9-2.4 6.4-.9.5-2.5 1.1-2.1 1.7.9 1.3 2-.4 3-.6 1.3-.2 2.6-2.4 3.7-.7.6 1-1.7 1.6-2.7 2.5a16.9 16.9 0 01-2.5 1.5c-.2.1-.3.5-.4.7a2.5 2.5 0 001 .2 10.2 10.2 0 004.3-2.3c1.5-1.2 2.7-1 4.3.3 4.3 3.5 4.2 3-.1 6.6A99.9 99.9 0 0151.6 68a5.7 5.7 0 01-5.2.3c-2.6-1-5.4-1.3-8-2.6a.8.8 0 00-1 .6 1 1 0 00.2 1 28 28 0 0011.2 4.9 4.6 4.6 0 003.3-1c4.3-2.9 8.8-5.4 12.9-8.5 3.4-2.6 7-4.9 10.6-7.2 1.2-.8 2.7-1.7 4.1-.5 1.3 1.1 1.3 2.7.9 4.2-1 3.7-3.8 6.2-7 8.1L56.9 77.7c-8 4.9-13.7 4.8-21.2-.7-5-3.6-9.7-7.4-14.6-11-.9-.7-2.3-1.3-1.7-2.7a3.1 3.1 0 013.8-1.8 34.7 34.7 0 017.5 2.5c.5.3 1.3.4 1.7-.3 0-.2-.5-.9-.9-1.1l-3.5-2a4 4 0 01-1.8-2.2 3.1 3.1 0 01.7-3.2 2.4 2.4 0 013.2-.3l4.5 3a1.5 1.5 0 001.4.1c.8-.7 0-1.1-.5-1.5-1.3-1-2.8-1.8-4-2.8-.6-.4-1.5-1.2-.6-2 .5-.5 1.1.1 1.7.5a70.5 70.5 0 0010.8 7 5.5 5.5 0 006-.6c.5-.3 1.4-.6 1.2-1.3-.3-.9-1-.1-1.6 0l-1.9.8a1.3 1.3 0 01-1.6-.6 1.5 1.5 0 01.3-1.3l3.5-2.8c.5-.4 1.3-1 .9-1.5-.6-.9-1.5-.4-2.2 0-1 .7-1.8 1.6-2.7 2.2a5.3 5.3 0 01-6.5 0l-2-1.4c-4.4-2.5-7-6-5.6-11.2z"
+              fill="#fff"
+            />
+          </symbol>
+        </defs>
+      </svg>
+      <svg
+        id="srv1"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv2"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv3"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv4"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv5"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv6"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv7"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv8"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv9"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv10"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv11"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv12"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv13"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv14"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#circle" />
+      </svg>
+      <svg
+        id="srv15"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv16"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv17"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv18"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv19"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv20"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv21"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv22"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg
+        id="srv23"
+        class="srv"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+      >
+        <use xlink:href="#srv" />
+      </svg>
+      <svg id="min4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#srv" />
+      </svg>
+      <svg id="min6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#srv" />
+      </svg>
+      <svg id="min7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#srv" />
+      </svg>
+      <svg id="hnt1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <svg id="hnt7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <use xlink:href="#hnt" />
+      </svg>
+      <img id="mapS" src="../../jpg/MoonlitRiverPark/survivor.jpg" alt="" />
+      <img id="map0" src="../../jpg/MoonlitRiverPark/0.jpg" alt="" />
+      <img id="map1" src="../../jpg/MoonlitRiverPark/1.jpg" alt="" />
+      <img id="map2" src="../../jpg/MoonlitRiverPark/2.jpg" alt="" />
+      <img id="map3" src="../../jpg/MoonlitRiverPark/3.jpg" alt="" />
+      <img id="map4" src="../../jpg/MoonlitRiverPark/4.jpg" alt="" />
+      <img id="map5" src="../../jpg/MoonlitRiverPark/5.jpg" alt="" />
+      <img id="map6" src="../../jpg/MoonlitRiverPark/6.jpg" alt="" />
+      <img id="map7" src="../../jpg/MoonlitRiverPark/7.jpg" alt="" />
+    </div>
+    <button
+      type="button"
+      onclick="window.history.back();"
+      class="back-and-reload-button"
+    >
+      <img id="back" src="../../svg/back.svg" alt="go_back" />
+    </button>
+    <button
+      type="button"
+      onclick="window.location.reload(false);"
+      class="back-and-reload-button"
+    >
+      <img id="reload" src="../../svg/reload.svg" alt="reload" />
+    </button>
+    <script src="../../js/vh.js"></script>
+    <script src="../../js/survivor/MoonlitRiverPark.js"></script>
+  </body>
+</html>
